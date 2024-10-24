@@ -1,0 +1,135 @@
+
+@media (max-width: 768px) {
+
+    header {
+        justify-content: center; /* Center content horizontally */
+        text-align: center;
+        height: 50px;
+    }
+
+    body {
+        margin-top: 30px;
+    }
+
+    /* Center the name */
+    #name {
+        margin: 0;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-left: 20px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    main {
+        margin: 0 10px;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    .line-between{
+        width: 50%;
+    }
+
+    .intro {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        margin: 0;
+        text-align: center;
+        margin-left:20px;
+    }
+
+
+    #pic {
+        margin: 0;
+        margin-right: 100px;
+        width: 80%; 
+        max-width: 300px; 
+        height: auto; 
+    }
+
+    #pic > img {
+        width: 100%; 
+        height: auto;
+    }
+
+
+    div#intro-text {
+        margin: 0; 
+        padding: 0 20px; 
+    }
+
+    div#intro-text span.head-intro {
+        font-size: 2.5rem;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .experience {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .projects {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .content__container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch; 
+        width: 100%;
+    }
+
+
+    .education, .skills {
+        width: 100%;              
+        margin-left: 0;          
+        margin-right: 0;         
+        padding-left: 0;         
+        padding-right: 0;         
+        box-sizing: border-box;
+    }
+
+    .skills h2 {
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .skills, .education, .experience-content__container, .project-content__container {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: smaller;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer p{
+        margin: 0;    
+    }
+
+}
